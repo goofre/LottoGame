@@ -8,7 +8,7 @@ const path = require('path');
 const generateLottoNumbers = () => {
 	let numbers = [];
 	while (numbers.length < 5) {
-		let randomNum = Math.floor(Math.random() * 89) + 1;
+		let randomNum = Math.floor(Math.random() * 90) + 1;
 		!numbers.includes(randomNum) && numbers.push(randomNum);
 	}
 	return numbers;
